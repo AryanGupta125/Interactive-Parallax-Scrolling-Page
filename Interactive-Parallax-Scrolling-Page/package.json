@@ -1,0 +1,32 @@
+{
+  "name": "stellar-parallax",
+  "version": "1.0.0",
+  "description": "An immersive parallax scrolling website with multi-layer depth effects",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 8000 -s",
+    "dev": "npx live-server --port=8000 --no-browser",
+    "format": "npx prettier --write '**/*.{html,css,js}'",
+    "lint": "npx eslint js/",
+    "validate": "npx html-validate index.html"
+  },
+  "keywords": [
+    "parallax",
+    "scrolling",
+    "animation",
+    "css",
+    "javascript",
+    "interactive",
+    "web-design"
+  ],
+  "author": "Stellar Parallax Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/stellar-parallax"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
